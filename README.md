@@ -28,5 +28,35 @@ The project consists of several components:
 - **Controllers**:
   - Manages user input and interaction between the Model and View.
 
-### Directory Layout
+
+## Usage
+
+To run the MVC pattern demonstration, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/stevsharp/MVCPattern.git
+   cd MVCPattern
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        IModel model = new StudentModel();
+
+        IView view = new View();
+    
+        IStudentController studentController = new StudentController(view,model);
+    
+        studentController.DisplayStudents();
+    
+        studentController.AddStudent(new Student("Nio", "The one"));
+    
+        studentController.DisplayStudents();
+    
+        studentController.Remove(new Student("Nio", "The one"));
+    
+        studentController.DisplayStudents();
+    }
+}
 
