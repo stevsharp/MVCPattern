@@ -4,6 +4,8 @@ This repository demonstrates the implementation of the Model-View-Controller (MV
 
 ## This repository is dedicated to my dear professor, Mrs. George Prokopakis.
 
+https://www.linkedin.com/in/gprok/
+
 ## Introduction
 
 The MVCPattern project provides a straightforward example of how to implement the MVC design pattern in C#. It separates the application's logic into three interconnected components:
