@@ -2,6 +2,8 @@
 
 This repository demonstrates the implementation of the Model-View-Controller (MVC) design pattern using C#. The MVC pattern helps separate the concerns of an application into three main components: Model, View, and Controller, enhancing modularity and ease of maintenance.
 
+##This repository is dedicated to my dear professor, Mrs. George Prokopakis.
+
 ## Introduction
 
 The MVCPattern project provides a straightforward example of how to implement the MVC design pattern in C#. It separates the application's logic into three interconnected components:
